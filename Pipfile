@@ -5,6 +5,15 @@ name = "pypi"
 
 [packages]
 eleuther-elk = {editable = true, path = "."}
+tqdm = "*"
+numpy = "*"
+torch = "*"
+datasets = "*"
+transformers = "*"
+sklearn = "*"
+scikit-learn = "*"
+sentencepiece = "*"
+protobuf = "*"
 
 [dev-packages]
 
