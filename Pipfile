@@ -1,7 +1,7 @@
 [[source]]
 url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
+verify_ssl = false
+name = "pip_conf_index_global"
 
 [packages]
 eleuther-elk = {editable = true, path = "."}
@@ -10,12 +10,11 @@ numpy = "*"
 torch = "*"
 datasets = "*"
 transformers = "*"
-sklearn = "*"
-scikit-learn = "*"
 sentencepiece = "*"
 protobuf = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "3.10"
+python_full_version = "3.10.12"
